@@ -29,5 +29,10 @@ namespace AB_game
             CodeBreaker codeBreaker = new CodeBreaker();
             codeBreaker.Show();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

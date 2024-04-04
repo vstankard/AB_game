@@ -94,11 +94,12 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label4.Location = new Point(61, 222);
+            label4.Location = new Point(52, 224);
             label4.Name = "label4";
-            label4.Size = new Size(320, 15);
+            label4.Size = new Size(334, 15);
             label4.TabIndex = 5;
-            label4.Text = "Created By: Vincent Stankard, Luis Nava, Mohammed Mota";
+            label4.Text = "Developed By: Vincent Stankard, Luis Nava, Mohammed Mota";
+            label4.Click += label4_Click;
             // 
             // Welcome
             // 
